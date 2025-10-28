@@ -8,12 +8,16 @@ export default function Footer() {
 
       <p className="text-gray-400 text-sm tracking-wide">
         © {new Date().getFullYear()}{" "}
-        <span className="text-orange-400 font-medium">Winter ARC</span> — Built
+        <span className="text-orange-400 font-medium"><a href="/">Winter ARC</a></span> — Built
         with ❄️ & Discipline.
       </p>
 
       <p className="text-[12px] mt-2 text-gray-500">
         Designed for the <span className="text-cyan-400">90 Day Challenge</span>
+      </p>
+
+      <p className="text-[12px] mt-2 text-gray-500">
+        Crafted by <span className="text-cyan-400"><a href="#">Abdul Rehman</a></span>
       </p>
     </footer>
   );
